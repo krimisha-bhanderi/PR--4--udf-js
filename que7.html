@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+     <!-- // 7.Write a JavaScript program to find which number is greter 
+          in 3 numbers using nested if else.(using all function) -->
+
+    <script type="text/javascript">
+       
+
+        // --------------------  TAKE NOTHING RETURN NOTHING  ----------------------
+        function Maximumtnrn()
+        {
+             var a = parseInt(prompt(`Enter a : `));
+             var b = parseInt(prompt(`Enter b :`));
+             var c = parseInt(prompt(`Enter c :`));
+
+             document.write(`<h3>A => ${a} , B => ${b} , C => ${c}</h3>`);
+
+             if(a > b)
+             {
+                  if(a > c) document.write(`A is max...`);
+                  
+                  else document.write(`C is max...`);
+             }
+             else
+             {
+                  if(b > c) document.write(`B is max...`);
+                  
+                  else document.write(`C is max...`);
+
+             }
+        }
+
+        // ----------------------------------TSRN---------------------------------------------------
+        function Maximumtsrn(a,b,c)
+        {
+             document.write(`<h3>A => ${a} , B => ${b} , C => ${c}</h3>`);
+             if(a>b)
+             {
+                  if(a > c) document.write(`A is max...`);
+                  
+                  else document.write(`C is max...`);
+             }
+             else
+             {
+                  if(b > c) document.write(`B is max...`);
+               
+                  else document.write(`C is max...`);
+                  
+             }
+        }
+
+        function Maximumtnrs() 
+        {
+             var a = parseInt(prompt(`Enter a : `));
+             var b = parseInt(prompt(`Enter b : `));
+             var c = parseInt(prompt(`Enter c : `));
+
+             document.write(`<h3>A => ${a} , B => ${b} , C => ${c}</h3>`);
+
+             if(a > b)
+             {
+                  if(a > c) document.write(`A is max...`);
+                  
+                  else document.write(`C is max...`);
+                  
+             }
+             else
+             {
+                  if(b > c) document.write(`B is max...`);
+                  
+                  else document.write(`C is max...`);
+                  
+             }
+        }
+
+
+        function Maximumtsrs(a,b,c) 
+        {
+
+             document.write(`<h3>A => ${a} , B => ${b} , C => ${c}</h3>`);
+
+             if(a > b)
+             {
+                  if(a > c) document.write(`A is max...`);
+     
+                  else document.write(`C is max...`);
+     
+             }
+             else
+             {
+                  if (b > c ) document.write(`B is max...`);
+                  
+                  else document.write(`C is max...`);
+                  
+             }
+        }
+
+        Maximumtnrn();
+        Maximumtsrn(3,7,8);
+        Maximumtnrs();
+        Maximumtsrs(3,7,8);
+
+   </script>
+    
+</body>
+</html>
